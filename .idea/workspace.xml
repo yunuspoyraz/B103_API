@@ -5,11 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8525e0f4-8f02-4efa-85c5-daaf1abc0902" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/base_urls/JsonPlaceHolderBaseUrl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/base_urls/GoRestBaseUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/base_urls/HerOkuAppBaseUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/patch_requests/Patch01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/post_requests/Post01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/put_requests/Put01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test_data/GoRestTestData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test_data/HerOkuAppTestData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test_data/JsonPlaceHolderTestData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base_urls/JsonPlaceHolderBaseUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base_urls/JsonPlaceHolderBaseUrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/get_requests/Get04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get04.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,21 +65,13 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.Get04.get04">
-    <configuration name="RequestResponse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="get_requests.RequestResponse" />
-      <module name="B103_API" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="get_requests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Get01.get01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="base_urls" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Patch01.patch01">
+    <configuration name="Get07.get07" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B103_API" />
       <extension name="coverage">
         <pattern>
@@ -75,14 +80,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="get_requests" />
-      <option name="MAIN_CLASS_NAME" value="get_requests.Get01" />
-      <option name="METHOD_NAME" value="get01" />
+      <option name="MAIN_CLASS_NAME" value="get_requests.Get07" />
+      <option name="METHOD_NAME" value="get07" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Get02.get02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Get08.get08" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B103_API" />
       <extension name="coverage">
         <pattern>
@@ -91,14 +96,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="get_requests" />
-      <option name="MAIN_CLASS_NAME" value="get_requests.Get02" />
-      <option name="METHOD_NAME" value="get02" />
+      <option name="MAIN_CLASS_NAME" value="get_requests.Get08" />
+      <option name="METHOD_NAME" value="get08" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Get03.get03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Get09.get09" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B103_API" />
       <extension name="coverage">
         <pattern>
@@ -107,24 +112,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="get_requests" />
-      <option name="MAIN_CLASS_NAME" value="get_requests.Get03" />
-      <option name="METHOD_NAME" value="get03" />
+      <option name="MAIN_CLASS_NAME" value="get_requests.Get09" />
+      <option name="METHOD_NAME" value="get09" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Get04.get04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Patch01.patch01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B103_API" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="get_requests.*" />
+          <option name="PATTERN" value="patch_requests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="get_requests" />
-      <option name="MAIN_CLASS_NAME" value="get_requests.Get04" />
-      <option name="METHOD_NAME" value="get04" />
+      <option name="PACKAGE_NAME" value="patch_requests" />
+      <option name="MAIN_CLASS_NAME" value="patch_requests.Patch01" />
+      <option name="METHOD_NAME" value="patch01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Put01.put01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B103_API" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="put_requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="put_requests" />
+      <option name="MAIN_CLASS_NAME" value="put_requests.Put01" />
+      <option name="METHOD_NAME" value="put01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -132,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Get04.get04" />
-        <item itemvalue="JUnit.Get03.get03" />
-        <item itemvalue="JUnit.Get02.get02" />
-        <item itemvalue="JUnit.Get01.get01" />
-        <item itemvalue="Application.RequestResponse" />
+        <item itemvalue="JUnit.Patch01.patch01" />
+        <item itemvalue="JUnit.Get09.get09" />
+        <item itemvalue="JUnit.Get08.get08" />
+        <item itemvalue="JUnit.Get07.get07" />
+        <item itemvalue="JUnit.Put01.put01" />
       </list>
     </recent_temporary>
   </component>

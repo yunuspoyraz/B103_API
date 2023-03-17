@@ -1,22 +1,18 @@
 package base_urls;
 
 import io.restassured.builder.RequestSpecBuilder;
-import io.restassured.http.ContentType;
-import io.restassured.specification.RequestLogSpecification;
 import io.restassured.specification.RequestSpecification;
 import org.junit.Before;
 
-public class JsonPlaceHolderBaseUrl {
+public class HerOkuAppBaseUrl {
     protected  RequestSpecification spec;
 
     @Before //Her test method undan önce calısır.
     public void setup(){
 
-        spec = new RequestSpecBuilder().setAccept("application/json").setContentType(ContentType.JSON).setBaseUri("https://jsonplaceholder.typicode.com").build();
+        spec = new RequestSpecBuilder().setBaseUri("https://restful-booker.herokuapp.com").build();
         //setAccept("application/json")==> request yaptıgımızda, karsı tarafın kabul edeceği data type'ı gönderiyoruz. DATA TYPE: JSON
         //Accept type is “application/json”
-        //setContentType(ContentType.JSON) ==> karsı tarafın göndereceği data type : JSON bu sebeple koyuyoruz. PUT, POST, PATCH yaparken mutlaka koymalıyız.
-                                               //her defasında kodlara yazmamak için buraya ekledik.
     }
 
 }

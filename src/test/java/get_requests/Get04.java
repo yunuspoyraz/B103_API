@@ -51,6 +51,12 @@ public class Get04 extends JsonPlaceHolderBaseUrl {
                 "userId", hasItems(2,7,9)); //2, 7, and 9 should be among the userIds
                                             // hasItems() methodu==> coklu datayı içerip içermediğinin kontrol ederiz.
 
+
+        //hasSize() ==> eleman sayısını assert eder.
+        //hasItem() ==> contains() methodu gibi objenin içerilip içerilmediğini assert eder.
+        //hasItems() ==> containsAll() methodu gibi birden fazla objenin içerilip içerilmediğini assert eder.
+
+
     }
 
 
