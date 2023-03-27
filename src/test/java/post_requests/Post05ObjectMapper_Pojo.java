@@ -10,6 +10,7 @@ import util.ObjectMapperUtils;
 import java.io.IOException;
 
 import static io.restassured.RestAssured.given;
+import static io.restassured.RestAssured.requestSpecification;
 import static org.junit.Assert.assertEquals;
 
 public class Post05ObjectMapper_Pojo extends JsonPlaceHolderBaseUrl {
@@ -48,6 +49,7 @@ public class Post05ObjectMapper_Pojo extends JsonPlaceHolderBaseUrl {
 
         //Send the request and get the response
         Response response = given().spec(spec).when().body(expectedData).post("{first}");
+        response.prettyPrint();
 
         //Do Assertion
 //        JsonPlaceHolderPojo actualData = new ObjectMapper().readValue(response.asString(), JsonPlaceHolderPojo.class);

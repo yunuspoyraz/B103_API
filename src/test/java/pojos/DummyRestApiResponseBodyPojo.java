@@ -1,6 +1,6 @@
 package pojos;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class DummyRestApiResponseBodyPojo {
@@ -8,6 +8,7 @@ public class DummyRestApiResponseBodyPojo {
     private String status;
     private DummyRestApiDataPojo data;
     private String message;
+
 
     public DummyRestApiResponseBodyPojo() { // karsıdan gelen datayı (response) convertion yapmak icin bos constructor olusturuyoruz.
     }
